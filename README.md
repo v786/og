@@ -3,6 +3,13 @@ og - An open graph parser for Golang
 
 This is for parsing open graph (and Twitter card) meta tags in a html page
 
+You can use this generate preview cards for your website.
+
+Sample Curl:
+```
+curl --location --request GET 'https://rocky-wildwood-73295.herokuapp.com/?url=https://github.com/v786'
+```
+
 ## Data structures
 
 ### PageInfo
